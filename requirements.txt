@@ -57,7 +57,6 @@ parso==0.8.3
 pillow==10.2.0
 prompt-toolkit==3.0.43
 proto-plus==1.23.0
-protobuf==3.19.5
 psutil==5.9.8
 pure-eval==0.2.2
 py-cpuinfo==9.0.0
