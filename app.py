@@ -53,6 +53,9 @@ def retrun_nameage():
   except Exception as e:
     return jsonify({"error": e})
 
+@app.route('/test', method=['POST'])
+def test():
+  return jsonify({"name": "Yifan"})
 
 if __name__ == '__main__':
   app.run(host='127.0.0.1', port=5000)
