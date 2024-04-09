@@ -53,7 +53,7 @@ def retrun_nameage():
   except Exception as e:
     return jsonify({"error": e})
 
-@app.route('/test', method=['POST'])
+@app.route('/test', methods=['POST'])
 def test():
   return jsonify({"name": "Yifan"})
 
